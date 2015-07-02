@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Tasks Sign In</title>
+
+        <link rel="stylesheet" href="css/styles.css"/>
+    </head>
+    <body class="container-fluid">
+        <h1>Sign In</h1>
+
+        <p class="alert alert-danger error-message"></p>
+
+        <form class="form-signin">
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="your email" required/>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="password" required/>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">
+                    Sign In
+                    <span class="fa fa-refresh fa-spin spinner"></span>
+                </button>
+            </div>
+        </form>
+
+        <p>Don't have an account yet? <a href="signup.html">Sign Up</a> for a free account!</p>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/signin.js"></script>
+    </body>
+</html>

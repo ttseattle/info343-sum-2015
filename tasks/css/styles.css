@@ -1,0 +1,39 @@
+/* import the Lato font from Google fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/* import the Bootstrap minified css */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+
+/* import the Font Awesome stylesheet for cool font-based icons */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+body {
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.error-message {
+    display: none;
+}
+
+.task-list li {
+    cursor: pointer;
+}
+
+.task-done {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.spinner {
+    display: none;
+    transition: 250ms;
+}
+
+.working .spinner {
+    display: inline-block;
+}
+
+button .spinner {
+    margin-left: 0.5em;
+}
